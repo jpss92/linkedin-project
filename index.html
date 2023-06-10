@@ -13,9 +13,9 @@
 		<!-- Navigation-->
 		<nav class="nav">
 			<div class="nav__logo">
-				<img src="./assets/images/In-White-128.png" />
+				<img class="data-profile-picture" src="./assets/images/In-White-128.png" />
 			</div>
-			<div class="nav__username">Ankur Bag</div>
+			<div class="nav__username data-username"></div>
 		</nav>
 		<!--- Main Container-->
 		<main class="container">
@@ -24,14 +24,17 @@
 					<div class="profile-card__img">
 						<img src="./assets/images/man.png" />
 					</div>
-					<div class="profile-card__title">Ankur Bag, Software Engineer</div>
+					<div class="profile-card__title">
+						<span class="data-username"></span>
+						, <span class="data-jobtitle"></span>
+						</div>
 				</section>
 			</section>
 			<section class="right-container">
 				<section class="start-post">
 					<div class="start-post-user">
 						<div class="start-post-user__img">
-							<img src="./assets/images/man.png" />
+							<img src="" />
 						</div>
 						<div class="start-post-user__text">
 							<input type="text" placeholder="Start Post" />
@@ -80,5 +83,6 @@
 				</section>
 			</section>
 		</main>
+		<script src="./script.js"></script>
 	</body>
 </html>
